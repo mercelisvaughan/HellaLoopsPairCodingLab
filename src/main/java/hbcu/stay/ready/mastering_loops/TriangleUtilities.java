@@ -7,14 +7,26 @@ public class TriangleUtilities {
     }
 
     public static String getRow(int numberOfStars) {
-        return null;
+        String empString = "";
+        for (int i = 0; i < numberOfStars; i++){
+            empString += "*";
+        }
+        return empString;
     }
 
     public static String getSmallTriangle() {
-        return null;
+        String empString = "";
+        for(int i = 1; i<5; i++){
+            empString += "*".repeat(i)+"\n";
+        }
+        return empString;
     }
 
     public static String getLargeTriangle() {
-        return null;
+        String empString = "";
+        for(int i = 1; i<10; i++){
+            empString += "*".repeat(i)+"\n";
+        }
+        return empString;
     }
 }

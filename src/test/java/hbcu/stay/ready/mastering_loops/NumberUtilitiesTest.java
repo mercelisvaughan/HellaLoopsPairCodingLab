@@ -221,10 +221,10 @@ public class NumberUtilitiesTest {
     public void testGetExponentiationNumbers() {
         // : Given
         String expected = "25100225";
-        int start = 5;
-        int stop = 20;
-        int step = 5;
-        int exponent = 2;
+        Integer start = 5;
+        Integer stop = 20;
+        Integer step = 5;
+        Integer exponent = 2;
 
         // : When
         String actual = NumberUtilities.getExponentiations(start, stop, step, exponent);
